@@ -1,16 +1,8 @@
 # Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user.
 
-import math
-import fractions
+number = int(input("Enter a number: "))
 
-# asks to input a number
-number = int(input("Enter a Number: "))
-
-# decides if even or odd
-x = int(math.fmod(number, 2))
-
-if fractions.Fraction(x) == True:
-    print("This is an odd number")
-
+if number % 2:
+    print("Odd")
 else:
-    print("This is an even number")
+    print("Even")
