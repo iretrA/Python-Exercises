@@ -1,0 +1,7 @@
+#from https://pynative.com/python-functions-exercise-with-solutions/#h-exercise-1-create-a-function-in-python
+def main(name, age):
+    print(name, age)
+name = input("Input your name: ")
+age = input("Input your age: ")
+
+main(name, age)
